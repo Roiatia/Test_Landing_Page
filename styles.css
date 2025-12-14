@@ -455,6 +455,60 @@ body {
     background: #f0f9ff;
 }
 
+/* CTA Contact Info */
+.cta-contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cta-contact-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+.cta-contact-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.cta-contact-item i {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.cta-contact-item p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+.cta-contact-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.cta-contact-item a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.cta-contact-item span {
+    display: block;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
 /* ==================== Footer ==================== */
 footer {
     background: #2c3e50;
